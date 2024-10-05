@@ -1,0 +1,53 @@
+body {
+    background-color: #0D1117;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+nav{
+    background-color: #010409 ;
+    
+}
+
+h1 {
+    color: #343a40;
+}
+
+.heading-one {
+    color: #F78166;
+}
+
+h2 {
+    color: #007bff;
+}
+
+.light-gray {
+    color: rgb(172, 172, 172);
+}
+.custom-font-large {
+    font-size: 26px;
+    
+}
+
+.custom-font-medium {
+    font-size: 18px; 
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0D1117;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+[data-aos] {
+    opacity: 0;
+}
+
+[data-aos].aos-animate {
+    opacity: 1;
+}
