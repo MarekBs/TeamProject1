@@ -35,9 +35,18 @@ h2 {
 footer {
     position: fixed;
     bottom: 0;
+    color: rgb(150, 150, 150);
+    margin-top: 4rem;
+    bottom: 0;
     width: 100%;
+    height: 2rem;
     background-color: #0D1117;
 }
+.border-custom {
+    border-top: 1px solid #F78166;;
+    padding-top: 2rem;
+}
+
 
 .fade-in {
     opacity: 0;

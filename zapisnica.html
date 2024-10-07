@@ -40,35 +40,43 @@
     </div>
 
     <!-- Main content of the page -->
-    <div class="container mt-4">
-        <h1>Zápisnica z 1. stretnutia</h1>
-        <section id="meeting-notes">
-            <h2>Podrobnosti o zápisnici</h2>
-            <p>Forma: Prezenčne</p>
-            <p>Dátum: 30. 9. 2024</p>
-            <p>Vedúci stretnutia: Ing. Sabina Daniela Pekareková</p>
-            <p>Účastníci: Bc. Marek Belis, Bc. Róbert Dobrý, Bc. Lukáš Novák, Bc. Martin Švajka, Bc. Matúš Vaňo</p>
-            <p>Hlavné body stretnutia:</p>
-            <ul>
-                <li>Oboznámenie sa s cieľami projektu</li>
-                <li>Vybratie programovacieho jazyka projektu</li>
-                <li>Diskusia o rozdelení úloh v tíme</li>
-                <li>Diskusia o organizácií tímového projektu</li>
-                <li>Stanovenie úloh do ďalšieho stretnutia</li>
-            </ul>
-        </section>
-        <section id="next-steps">
-            <h2>Úlohy do ďalšieho stretnutia</h2>
-            <ul>
-                <li>Rozdelenie úloh v tíme</li>
-                <li>Príprava webovej stránky projektu</li>
-                <li>Naštudovanie problematiky</li>
-            </ul>
-        </section>
+    <div class="container mt-4 mb-5 border-custom">
+        <!-- Tlačidlo pre zobrazenie/zatvorenie zápisnice -->
+        <a class="btn btn-primary" data-toggle="collapse" href="#meeting-notes-collapse" role="button"
+            aria-expanded="false" aria-controls="meeting-notes-collapse">
+            Zápisnica z 1. stretnutia.
+        </a>
+
+        <!-- Rozbaľovací obsah -->
+        <div class="collapse mt-3" id="meeting-notes-collapse">
+            <section id="meeting-notes">
+                <h2>Podrobnosti o zápisnici</h2>
+                <p>Forma: Prezenčne</p>
+                <p>Dátum: 30. 9. 2024</p>
+                <p>Vedúci stretnutia: Ing. Sabina Daniela Pekareková</p>
+                <p>Účastníci: Bc. Marek Belis, Bc. Róbert Dobrý, Bc. Lukáš Novák, Bc. Martin Švajka, Bc. Matúš Vaňo</p>
+                <p>Hlavné body stretnutia:</p>
+                <ul>
+                    <li>Oboznámenie sa s cieľami projektu</li>
+                    <li>Vybratie programovacieho jazyka projektu</li>
+                    <li>Diskusia o rozdelení úloh v tíme</li>
+                    <li>Diskusia o organizácií tímového projektu</li>
+                    <li>Stanovenie úloh do ďalšieho stretnutia</li>
+                </ul>
+            </section>
+            <section id="next-steps" class="mt-4">
+                <h2>Úlohy do ďalšieho stretnutia</h2>
+                <ul>
+                    <li>Rozdelenie úloh v tíme</li>
+                    <li>Príprava webovej stránky projektu</li>
+                    <li>Naštudovanie problematiky</li>
+                </ul>
+            </section>
+        </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center mt-4">
+    <footer class="text-center">
         <p>© 2024 Tímový Projekt</p>
     </footer>
 
