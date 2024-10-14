@@ -10,6 +10,7 @@
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -41,10 +42,16 @@
 
     <!-- Main content of the page -->
     <div class="container mt-4 mb-5 border-custom">
-        <!-- Tlačidlo pre zobrazenie/zatvorenie zápisnice -->
+        <!-- Tlačidlo pre zobrazenie/zatvorenie zápisnice 1 -->
         <a class="btn btn-primary" data-toggle="collapse" href="#meeting-notes-collapse" role="button"
-            aria-expanded="false" aria-controls="meeting-notes-collapse">
+            aria-expanded="false" aria-controls="meeting-notes-collapse" onclick="toggleCollapse('meeting-notes-collapse')">
             Zápisnica z 1. stretnutia.
+        </a>
+        
+        <!-- Tlačidlo pre zobrazenie/zatvorenie zápisnice 2-->
+        <a class="btn btn-primary" data-toggle="collapse" href="#meeting-notes-collapse2" role="button"
+            aria-expanded="false" aria-controls="meeting-notes-collapse2" onclick="toggleCollapse('meeting-notes-collapse2')">
+            Zápisnica z 2. stretnutia.
         </a>
 
         <!-- Rozbaľovací obsah -->
@@ -73,14 +80,9 @@
                 </ul>
             </section>
         </div>
-        <a class="btn btn-primary" data-toggle="collapse" href="#meeting-notes-collapse" role="button"
-            aria-expanded="false" aria-controls="meeting-notes-collapse">
-            Zápisnica z 2. stretnutia.
-        </a>
 
-        <!-- Rozbaľovací obsah -->
-        <div class="collapse mt-3" id="meeting-notes-collapse">
-            <section id="meeting-notes">
+        <div class="collapse mt-3" id="meeting-notes-collapse2">
+            <section id="meeting-notes2">
                 <h2>Podrobnosti o zápisnici</h2>
                 <p>Forma: Prezenčne</p>
                 <p>Dátum: 14. 10. 2024</p>
