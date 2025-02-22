@@ -4,7 +4,9 @@ function toggleCollapse(collapseId) {
                          'meeting-notes-collapse3',
                          'meeting-notes-collapse4',
                          'meeting-notes-collapse5',
-                         'meeting-notes-collapse6'];
+                         'meeting-notes-collapse6',
+                         'meeting-notes-collapse7'
+                        ];
     collapses.forEach(id => {
         if (id !== collapseId) {
         $('#' + id).collapse('hide');
