@@ -9,7 +9,9 @@ function toggleCollapse(collapseId) {
                          'meeting-notes-collapse8',
                          'meeting-notes-collapse9',
                          'meeting-notes-collapse10',
-                         'meeting-notes-collapse11'
+                         'meeting-notes-collapse11',
+                         'meeting-notes-collapse12',
+                         'meeting-notes-collapse13'
                         ];
     collapses.forEach(id => {
         if (id !== collapseId) {
